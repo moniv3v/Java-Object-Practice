@@ -12,4 +12,8 @@ public class Mobile {
     public void makeACall(String inputMessage){
         System.out.println("Message :"+inputMessage);
     }
+
+    public void getMobile(){
+        System.out.printf("name: %s, color: %s, brand: %s", name, color, brand);
+    }
 }
