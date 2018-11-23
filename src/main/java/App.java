@@ -15,5 +15,6 @@ public class App {
         Person person = new Person("Peter",iphone);
         person.getMobile().makeACall("Hello ABCABCABCABCABCABCABCABCABCABC");
 
+        IPhoneRobot iPhoneRobot = new IPhoneRobot("iPhoneRobot",iphone);
     }
 }
