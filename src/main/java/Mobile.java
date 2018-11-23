@@ -10,7 +10,12 @@ public class Mobile {
     }
 
     public void makeACall(String inputMessage){
-        System.out.println("Message :"+inputMessage);
+        if(inputMessage.length()<=20){
+            System.out.println("Message :"+inputMessage);
+        }else{
+            System.out.println("Message cannot be sent");
+        }
+
     }
 
     public void getMobile(){
