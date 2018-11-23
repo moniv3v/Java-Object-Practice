@@ -10,5 +10,8 @@ public class App {
         Andriod andriod = new Andriod("My HTC", "blue","HTC");
         andriod.makeACall("Hello My HTC");
 
+        mobile.getMobile();
+
+        
     }
 }
